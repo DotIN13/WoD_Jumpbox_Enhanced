@@ -4,6 +4,7 @@
 // @version      0.1
 // @description  Easier jumpbox search
 // @author       DotIN13
+// @updateURL      https://github.com/DotIN13/WoD_Jumpbox_Enhanced/raw/master/Jumpbox%20Enhanced.user.js
 // @match        http://canto.world-of-dungeons.org/*
 // @grant        none
 // ==/UserScript==
