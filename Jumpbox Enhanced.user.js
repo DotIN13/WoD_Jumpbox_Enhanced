@@ -1,17 +1,24 @@
 // ==UserScript==
 // @name         WoD Jumpbox Enhanced
 // @namespace    github.com/DotIN13
-// @version      0.2
+// @version      0.3
 // @description  Easier jumpbox search
 // @author       DotIN13
-// @updateURL      https://github.com/DotIN13/WoD_Jumpbox_Enhanced/raw/master/Jumpbox%20Enhanced.user.js
+// @updateURL    https://github.com/DotIN13/WoD_Jumpbox_Enhanced/raw/master/Jumpbox%20Enhanced.user.js
 // @match        http://canto.world-of-dungeons.org/*
-// @grant        none
+// @grant        GM_addStyle
 // ==/UserScript==
 
 (function()
 {
     'use strict';
+
+    //styling jumpboxSelect
+    GM_addStyle("#jumpboxSelect{width: 50px;margin-right: 20px;height: 18px;}");
+
+    //modifying tooltip
+    var jumpboxTooltip = document.querySelector("#jumpbox_center>form>span");
+    jumpboxTooltip.setAttribute("onmouseover","return wodToolTip(this,'<p>键入物品、英雄等名称，<br />选择相应类别，<br />按下按钮获知详情。<br />同时兼容[*：*]类型代码。<br /><br /><i>JumpBox Enhanced by DotIN13</i></p>');")
 
     //get jumpboxSpan
     var jumpboxSpan = document.getElementById("jumpbox_center");
