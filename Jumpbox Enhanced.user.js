@@ -18,7 +18,7 @@
 
     //modifying tooltip
     var jumpboxTooltip = document.querySelector("#jumpbox_center>form>span");
-    jumpboxTooltip.setAttribute("onmouseover","return wodToolTip(this,'<p>键入物品、英雄等名称，<br />选择相应类别，<br />按下按钮获知详情。<br />同时兼容[*：*]类型代码。<br /><br /><i>JumpBox Enhanced by DotIN13</i></p>');")
+    jumpboxTooltip.setAttribute("onmouseover","return wodToolTip(this,'<p>键入物品、英雄等名称，<br />选择相应类别，<br />按下按钮获知详情。<br />同时兼容[*:*]类型代码。<br /><br /><i>JumpBox Enhanced by DotIN13</i></p>');")
 
     //get jumpboxSpan
     var jumpboxSpan = document.getElementById("jumpbox_center");
