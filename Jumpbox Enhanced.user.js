@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WoD Jumpbox Enhanced
 // @namespace    github.com/DotIN13
-// @version      0.4
+// @version      0.5
 // @description  Easier jumpbox search
 // @author       DotIN13
 // @updateURL    https://github.com/DotIN13/WoD_Jumpbox_Enhanced/raw/master/Jumpbox%20Enhanced.user.js
