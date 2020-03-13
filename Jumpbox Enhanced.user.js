@@ -16,11 +16,14 @@
     //get jumpboxSpan
     var jumpboxSpan = document.getElementById("jumpbox_center");
 
+    //edit tooltip
+    document.querySelector('#jumpbox_center>form>span').setAttribute("onmouseover","return wodToolTip(this,'输入代码或名称，选择相应类型<br>然后点按搜索，查询详情<br>输入[*:*]时，自动无视类型选择<br><br>Jumpbox Enhanced By DotIN13');");
+
     //create jumpboxSelect
     var jumpboxSelect = document.createElement("select");
     jumpboxSelect.id = "jumpboxSelect";
-    jumpboxSelect.style = "width: 50px;margin-right: 20px;height: 18px;"
-    jumpboxSpan.appendChild(jumpboxSelect);
+    jumpboxSelect.style = "width: 62px;margin-left: 25px;padding: 1px;margin-top: 1px;"
+    jumpboxSpan.parentElement.appendChild(jumpboxSelect);
 
     //add select options
     var jumpboxSelObj = document.getElementById("jumpboxSelect");
