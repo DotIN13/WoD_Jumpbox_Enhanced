@@ -1,5 +1,5 @@
 # WoD_Jumpbox_Enhanced
 ## Todo
-- [ ] Theming
+- [x] Theming
 - [x] Adding Chinese Translation?
-- [ ] Post in Forum
+- [x] Post in Forum
